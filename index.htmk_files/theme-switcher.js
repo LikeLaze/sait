@@ -78,13 +78,13 @@ class ThemeSwitcher {
     if (savedTheme) {
       this.setTheme(savedTheme);
     } else {
-      // Explicitly set dark theme as default
-      this.setTheme('dark');
+      // Explicitly set light theme as default
+      this.setTheme('light');
     }
   }
 
   shouldFollowSystemTheme() {
-    return false; // Disabled system theme following to maintain dark theme default
+    return false; // Disabled system theme following to maintain light theme default
   }
 
   setThemeByTime() {
