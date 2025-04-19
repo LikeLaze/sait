@@ -1,0 +1,139 @@
+body.dark-theme {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .dark-theme .dark-bg {
+    background-color: #2d2d2d;
+    color: #fff;
+  }
+  
+  .dark-theme .font-color-blue {
+    color: #75a7ff;
+  }
+  
+  .dark-theme .btn-blue {
+    background-color: #75a7ff;
+    border-color: #75a7ff;
+  }
+  
+  .dark-theme .promo-text {
+    opacity: 0.85;
+  }
+  
+  .dark-theme .link-border-bottom {
+    border-bottom: 1px solid #808080;
+  }
+  
+  .dark-theme .text-white.link-border-bottom {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .dark-theme .link {
+    color: rgba(224,224,224,0.8);
+    border-bottom: 1px solid rgba(224,224,224,0.8);
+  }
+  
+  .dark-theme .link.link-blue {
+    color: #75a7ff;
+    border-color: #75a7ff;
+  }
+  
+  .dark-theme .link.link-purple {
+    color: #b388ff;
+    border-color: #b388ff;
+  }
+  
+  .dark-theme .link.link-yellow {
+    color: #ffeb3b;
+    border-color: #ffeb3b;
+  }
+  
+  .dark-theme .text-yellow {
+    color: #ffeb3b !important;
+  }
+  
+  .dark-theme .logo:hover {
+    opacity: 0.75;
+  }
+  
+  .dark-theme .story p {
+    color: #e0e0e0;
+  }
+  
+  .dark-theme .story-link {
+    color: #75a7ff;
+    border-bottom: 2px solid #75a7ff;
+  }
+  
+  .dark-theme .greeting-text {
+    color: #b388ff;
+  }
+  
+  .dark-theme .navbar .nav-link.link-purple {
+    color: #b388ff !important;
+  }
+  
+  .dark-theme .text-blue {
+    color: #b388ff !important;
+  }
+  
+  .dark-theme .btn-yellow {
+    background-color: #ffeb3b;
+    color: #2d2d2d;
+  }
+  
+  .dark-theme .btn-yellow:hover {
+    background-color: #ffd740;
+    color: #2d2d2d;
+  }
+  
+  .dark-theme .text-purple {
+    color: #b388ff !important;
+  }
+  
+  .dark-theme .text-white-40 {
+    color: #e0e0e0 !important;
+    opacity: 0.4;
+  }
+  
+  /* Theme toggle button */
+  .theme-toggle {
+    background: transparent;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+    /* color: 'white'; */
+  }
+  
+  .dark-theme .theme-toggle {
+    border-color: #808080;
+  }
+  
+  .theme-toggle:hover {
+    background: rgba(224,224,224,0.1);
+  }
+
+.theme-toggle,
+.lang-toggle {
+  color: white !important;
+}
+
+.theme-toggle svg {
+  stroke: white;
+}
+
+.theme-toggle:hover,
+.lang-toggle:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
+}
